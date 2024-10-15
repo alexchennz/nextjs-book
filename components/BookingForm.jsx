@@ -91,7 +91,7 @@ const BookingForm = ({ room }) => {
             type='submit'
             className='w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-700 hover:bg-blue-900 hover:text-white hover:border-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800'
           >
-            Book Room
+            Book Now
           </button>
         </div>
       </form>

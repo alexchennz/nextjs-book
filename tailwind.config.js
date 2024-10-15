@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'bookit-grey': '#f9f9fe'
       },
     },
   },

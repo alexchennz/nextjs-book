@@ -29,7 +29,7 @@ const BookedRoomCard = ({ booking }) => {
   };
 
   return (
-    <div className='bg-white shadow rounded-lg p-4 mt-4 flex flex-col sm:flex-row justify-between items-start sm:items-center'>
+    <div className='bg-bookit-grey border shadow rounded-lg p-4 mt-4 flex flex-col sm:flex-row justify-between items-start sm:items-center hover:shadow-md duration-300'>
       <div>
         <h4 className='text-lg font-semibold'>{room.name}</h4>
         <p className='text-sm text-gray-600'>

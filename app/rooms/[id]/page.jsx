@@ -31,10 +31,10 @@ export default async function page({ params }) {
           className="flex items-center text-gray-600 hover:text-gray-800 mb-4"
         >
           <FaChevronLeft className="inline mr-1" />
-          <span className="ml-2">Back to Rooms</span>
+          <span className="">Back to Rooms</span>
         </Link>
 
-        <div className="flex flex-col sm:flex-row sm:space-x-6">
+        <div className="bg-bookit-grey p-4 flex flex-col sm:flex-row sm:space-x-6 border rounded-lg">
             <Image src={imageSrc} alt={room.name} width={400} height={100} className="w-full sm:w-1/3 h-64 object-cover rounded-lg" />
 
           <div className="mt-4 sm:mt-0 sm:flex-1">
@@ -44,18 +44,21 @@ export default async function page({ params }) {
 
             <ul className="space-y-2">
               <li>
-                <span className="font-semibold text-gray-800">Size:</span> {room.sqft} sq
+                <span className="font-semibold text-gray-800">Size:</span>{' '}{room.sqft} sq
                 ft
               </li>
               <li>
-                <span className="font-semibold text-gray-800">Availability:</span>{room.availability}
+                <span className="font-semibold text-gray-800">Availability:</span>{' '}{room.availability}
               </li>
               <li>
-                <span className="font-semibold text-gray-800">Price:</span>
+                <span className="font-semibold text-gray-800">Price:</span>{' '}
                 ${room.price_per_hour}/hour
               </li>
               <li>
-                <span className="font-semibold text-gray-800">Address:</span> {room.address}
+                <span className="font-semibold text-gray-800">Address:</span>{' '}{room.address}
+              </li>
+              <li>
+                <span className="font-semibold text-gray-800">Amenities:</span>{' '}{room.amenities}
               </li>
             </ul>
           </div>
