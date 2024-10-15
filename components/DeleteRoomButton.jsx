@@ -23,7 +23,7 @@ const DeleteRoomButton = ({ roomId }) => {
   return (
     <button
       onClick={handleDelete}
-      className='bg-red-500 text-white px-4 py-2 rounded mb-2 sm:mb-0 w-full sm:w-auto text-center hover:bg-red-700'
+      className='bg-red-500 text-white px-4 py-2 rounded-2xl mb-2 sm:mb-0 w-full sm:w-auto text-center hover:bg-red-700'
     >
       <FaTrash className='inline mr-1' /> Delete
     </button>

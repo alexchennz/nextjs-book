@@ -25,13 +25,13 @@ export default function Header() {
     }
   }
   return (
-    <header className="bg-gray-100">
+    <header className="border-y bg-gray-100">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/">
               <Image
-                className="h-12 w-12"
+                className="h-12 w-120"
                 src={image}
                 alt="Bookit"
                 priority={true}
