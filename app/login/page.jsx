@@ -23,7 +23,7 @@ export default function LoginPage() {
     }, [state]);
   return (
     <div className="flex items-center justify-center">
-      <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-sm mt-20">
+      <div className="bg-white shadow-lg border rounded-lg p-6 w-full max-w-sm mt-20">
         <form action={formAction}>
           <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
             Login
@@ -65,7 +65,7 @@ export default function LoginPage() {
 
             <p>
               No account?
-              <Link href="register.html" className="text-blue-500">
+              <Link href="/register" className="text-blue-500">
                 Register
               </Link>
             </p>
